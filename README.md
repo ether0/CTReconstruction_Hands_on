@@ -10,7 +10,7 @@ This project implements a CT (Computed Tomography) reconstruction algorithm with
 
 To run the code, ensure you have the following dependencies installed:
 
-- **CUDA** (for GPU acceleration)
+- **CUDA** (for GPU acceleration, verified for 11.7)
 - **Python 3.10**
 
 The required Python packages can be installed using pip:
