@@ -1,10 +1,10 @@
 # CTReconstruction_Hands_on
 
-This repository contains a modified version of the CT reconstruction code originally developed by [leehoy](https://github.com/leehoy/CTReconstruction.git). The primary focus of this project is to improve and adapt the code for specific use cases. Additionally, the phantom data used in this project is generated using the code from [tsadakane's SL3D repository](https://github.com/tsadakane/sl3d.git).
+This repository contains a modified version of the CT reconstruction code originally developed by [leehoy](https://github.com/leehoy/CTReconstruction.git). The primary focus of this project is to adapt the code for specific hands-on sessions. Additionally, the phantom data used in this project is generated using the code from [tsadakane's SL3D repository](https://github.com/tsadakane/sl3d.git).
 
 ## Overview
 
-This project implements a CT (Computed Tomography) reconstruction algorithm with a simple hands-on projects.
+This project implements a CT (Computed Tomography) reconstruction algorithm with simple hands-on projects.
 
 ## Requirements
 
