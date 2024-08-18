@@ -209,7 +209,7 @@ class Reconstruction(object):
         elif FilterType == 'shepp-logan':
             zero = np.where(w == 0)
             tmp = filter[zero]
-            filter = filter * sin(w / (2.0 * cutoff + eps)) / (w / (2.0 * cutoff + eps))
+            filter = filter * sin(w / (2.0 * cutoff + eps)) / (w / (2.0 * cutoff + eps) + eps)
             filter[zero] = tmp * sin(w[zero] / (2.0 * cutoff + eps))
         elif FilterType == 'cosine':
             filter = filter * cos(w / (2.0 * cutoff + eps))
